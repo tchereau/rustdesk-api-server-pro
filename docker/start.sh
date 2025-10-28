@@ -4,8 +4,6 @@ if [ ! -f /usr/local/bin/rustdesk-api-server-pro ]; then
     ln -s /app/rustdesk-api-server-pro /usr/local/bin/rustdesk-api-server-pro
 fi
 
-mkdir /app/data || true
-
 cd /app/data
 
 #if [ ! -f /app/server.db ]; then # This is not good if one wants to upgrade instance
